@@ -4,6 +4,10 @@
 
 This project extracts data from [Wikipedia](https://en.wikipedia.org/wiki/List_of_association_football_stadiums_by_capacity), orchestrates the process using Apache Airflow, loads the data into PostgreSQL, and visualizes it with Power BI.
 
+## Architecture
+
+![Architecture Diagram](/Data%20Pipeline.png)
+
 ## 🚀 Features
 
 - **Web Scraping:** Extracts football stadium data from Wikipedia using `BeautifulSoup`.
